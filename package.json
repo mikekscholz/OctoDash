@@ -8,6 +8,7 @@
         "name": "Timon Gaebelein",
         "email": "timon.gaebelein@icloud.com"
     },
+    "publishConfig": { "registry": "https://npm.pkg.github.com/" },
     "main": "main.js",
     "files": [
         "main.js",
