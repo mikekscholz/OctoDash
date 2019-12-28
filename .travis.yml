@@ -31,11 +31,11 @@ jobs:
     #   name: "Deploying..."
     #   script:
     #     - |
-    #       git config --global user.email "timon.gaebelein@icloud.com"
-    #       git config --global user.name "UnchartedBull"
+    #       git config --global user.email "mikekscholz@gmail.com"
+    #       git config --global user.name "mikekscholz"
     #       git config --global push.default current
     #       touch .git/credentials
-    #       echo "https://UnchartedBull:${GITHUB_TOKEN}@github.com" > .git/credentials
+    #       echo "https://mikekscholz:${GITHUB_TOKEN}@github.com" > .git/credentials
     #       git config credential.helper "store --file=.git/credentials"
     #       git checkout -- .
     #     - gem install github_changelog_generator
