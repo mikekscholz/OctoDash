@@ -29,7 +29,7 @@
 ***Note: This script will install additional OctoPrint Plugins by default. If you want to know which visit the Wiki!***
 
 ```
-wget -qO- https://github.com/UnchartedBull/OctoDash/raw/master/scripts/install.sh | bash -s -- --ptg
+wget -qO- https://github.com/mikekscholz/OctoDash/raw/master/scripts/install.sh | bash -s -- --ptg
 ```
 
 For more options and information have a look at the [wiki](https://github.com/UnchartedBull/OctoDash/wiki/Installation).
@@ -40,7 +40,7 @@ Having issues during the installation? Please have a look at the [Troubleshootin
 
 ## Update
 ```
-wget -qO- https://github.com/UnchartedBull/OctoDash/raw/master/scripts/update.sh | bash
+wget -qO- https://github.com/mikekscholz/OctoDash/raw/master/scripts/update.sh | bash
 ```
 
 For more info have a look at the [wiki](https://github.com/UnchartedBull/OctoDash/wiki/Update)
