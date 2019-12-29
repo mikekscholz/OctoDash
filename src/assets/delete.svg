@@ -5,13 +5,13 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   id="svg8"
-   version="1.1"
-   viewBox="0 0 100 100"
-   data-name="Layer 1"
-   fill="#c23616"
+   x="0"
    y="0"
-   x="0">
+   fill="#c23616"
+   data-name="Layer 1"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg8">
   <metadata
      id="metadata14">
     <rdf:RDF>
@@ -27,15 +27,15 @@
   <defs
      id="defs12" />
   <path
-     d="M 80.17,26.27 H 61.59 v -1.49 c 0,-4.418278 -3.581722,-8 -8,-8 h -7.18 c -4.418278,0 -8,3.581722 -8,8 v 1.49 H 19.83 c -3.999998,0 -3.999998,6 0,6 h 5.95 l 0.07,38 c 0,7.179702 5.820298,13 13,13 h 22.3 c 7.179702,0 13,-5.820298 13,-13 l 0.07,-38 h 5.95 c 3.999998,0 3.999998,-6 0,-6 z M 68.15,70.23 c 0,3.865993 -3.134007,7 -7,7 h -22.3 c -3.865993,0 -7,-3.134007 -7,-7 l -0.07,-38 H 68.22 Z M 43.41,24.08 c 0,-1.592944 0.963079,-2.7 3,-2.7 h 7.08 c 1.814933,0 3.066586,1.241769 3,2.7 v 2.19 H 43.41 Z"
-     style="fill:#ff3c00;fill-opacity:1;stroke:none;stroke-opacity:1"
-     id="path2" />
+     id="path2"
+     style="fill:#ff4c00;fill-opacity:1;stroke:none;stroke-opacity:1"
+     d="M 80.17,26.27 H 61.59 v -1.49 c 0,-4.418278 -3.581722,-8 -8,-8 h -7.18 c -4.418278,0 -8,3.581722 -8,8 v 1.49 H 19.83 c -3.999998,0 -3.999998,6 0,6 h 5.95 l 0.07,38 c 0,7.179702 5.820298,13 13,13 h 22.3 c 7.179702,0 13,-5.820298 13,-13 l 0.07,-38 h 5.95 c 3.999998,0 3.999998,-6 0,-6 z M 68.15,70.23 c 0,3.865993 -3.134007,7 -7,7 h -22.3 c -3.865993,0 -7,-3.134007 -7,-7 l -0.07,-38 H 68.22 Z M 43.41,24.08 c 0,-1.592944 0.963079,-2.7 3,-2.7 h 7.08 c 1.814933,0 3.066586,1.241769 3,2.7 v 2.19 H 43.41 Z" />
   <path
-     id="path4"
+     style="fill:#ff4c00;fill-opacity:1;stroke:none"
      d="m 44,41.53 a 3,3 0 0 0 -3,3 v 19.9 a 3,3 0 0 0 6,0 v -19.9 a 3,3 0 0 0 -3,-3 z"
-     style="fill:#ff3c00;fill-opacity:1;stroke:none" />
+     id="path4" />
   <path
-     id="path6"
+     style="fill:#ff4c00;fill-opacity:1;stroke:none"
      d="m 56,41.53 a 3,3 0 0 0 -3,3 v 19.9 a 3,3 0 0 0 6,0 v -19.9 a 3,3 0 0 0 -3,-3 z"
-     style="fill:#ff3c00;fill-opacity:1;stroke:none" />
+     id="path6" />
 </svg>
