@@ -21,7 +21,8 @@ export class StandbyComponent implements OnInit {
     private configService: ConfigService,
     private http: HttpClient,
     private router: Router,
-    private service: AppService) { }
+    private service: AppService,
+    private psuControlService: PsuControlService) { }
 
   ngOnInit() {
     if (this.configService.getAutomaticScreenSleep()) {
@@ -32,7 +33,6 @@ export class StandbyComponent implements OnInit {
   reconnect() {
     this.connecting = true;
     this.psuControlService.changePSUState(true);
-    await sleep(5000);
     if (this.httpPOSTRequest) {
       this.httpPOSTRequest.unsubscribe();
     }
