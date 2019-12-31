@@ -4,6 +4,7 @@ import { Subscription } from 'rxjs';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { AppService } from '../app.service';
+import { PsuControlService } from '../plugin-service/psu-control.service';
 
 @Component({
   selector: 'app-standby',
@@ -16,7 +17,11 @@ export class StandbyComponent implements OnInit {
   error = '';
   httpPOSTRequest: Subscription;
 
-  constructor(private configService: ConfigService, private http: HttpClient, private router: Router, private service: AppService) { }
+  constructor(
+    private configService: ConfigService,
+    private http: HttpClient,
+    private router: Router,
+    private service: AppService) { }
 
   ngOnInit() {
     if (this.configService.getAutomaticScreenSleep()) {
@@ -26,12 +31,14 @@ export class StandbyComponent implements OnInit {
 
   reconnect() {
     this.connecting = true;
+    this.psuControlService.changePSUState(true);
+    await sleep(5000);
     if (this.httpPOSTRequest) {
       this.httpPOSTRequest.unsubscribe();
     }
     const connectPayload: ConnectCommand = {
       command: 'connect',
-      save: false
+      save: true
     };
     this.httpPOSTRequest = this.http.post(this.configService.getURL('connection'), connectPayload, this.configService.getHTTPHeaders())
       .subscribe(
