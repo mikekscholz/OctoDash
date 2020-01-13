@@ -38,7 +38,7 @@ export class StandbyComponent implements OnInit {
     }
     const connectPayload: ConnectCommand = {
       command: 'connect',
-      save: true
+      save: false
     };
     this.httpPOSTRequest = this.http.post(this.configService.getURL('connection'), connectPayload, this.configService.getHTTPHeaders())
       .subscribe(
